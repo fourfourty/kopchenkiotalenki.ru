@@ -1,0 +1,50 @@
+$shadow: -1px 1px black;
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/roboto-v20-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+html,body {
+  font-family: 'Roboto';
+}
+
+.hide {
+  display: none;
+}
+
+.wrapper {
+  max-width: 1170px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.headers {
+  text-align: center;
+  font-size: 50px;
+  color: #CD6858;
+}
+
+@media (max-width: 576px) {
+  .headers {
+    font-size: 40px;
+  }
+}
